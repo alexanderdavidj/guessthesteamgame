@@ -1,0 +1,27 @@
+{
+    "name": "guessthesteamgame",
+    "version": "0.0.0",
+    "description": "h",
+    "main": "node/server.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "dev": "nodemon node/server.js --ext js,json,html,css,svg,ttf"
+    },
+    "author": "alexzerozeroone",
+    "license": "ISC",
+    "dependencies": {
+        "@types/express": "^4.17.13",
+        "express": "^4.17.1",
+        "fake-useragent": "^1.0.1",
+        "path": "^0.12.7",
+        "request": "^2.88.2"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/alexzerozeroone/guessthesteamgame.git"
+    },
+    "bugs": {
+        "url": "https://github.com/alexzerozeroone/guessthesteamgame/issues"
+    },
+    "homepage": "https://github.com/alexzerozeroone/guessthesteamgame#readme"
+}
